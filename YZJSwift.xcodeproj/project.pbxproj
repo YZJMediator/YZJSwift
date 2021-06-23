@@ -3,12 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2DC5A6002EF74D968C21BF73 /* Target_YZJSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635786C2EC7644FB20EFE59 /* Target_YZJSwift.swift */; };
-		4BD70C080F1DDD7191546B81 /* YZJSwift_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C4ED9831217D8C48A60937 /* YZJSwift_Extension.swift */; };
 		67D1F11B2682E68000FCC9D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D1F11A2682E68000FCC9D6 /* AppDelegate.swift */; };
 		67D1F11D2682E68000FCC9D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D1F11C2682E68000FCC9D6 /* SceneDelegate.swift */; };
 		67D1F11F2682E68000FCC9D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D1F11E2682E68000FCC9D6 /* ViewController.swift */; };
@@ -16,8 +15,6 @@
 		67D1F1242682E68800FCC9D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67D1F1232682E68800FCC9D6 /* Assets.xcassets */; };
 		67D1F1272682E68800FCC9D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67D1F1252682E68800FCC9D6 /* LaunchScreen.storyboard */; };
 		706D97E5A05EA56360796FDF /* YZJSwift_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107DD31085DA40BA5146E0B1 /* YZJSwift_Extension.swift */; };
-		72457619DF0B02900503B856 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321AA1A65C4F7027D3352C08 /* DemoViewController.swift */; };
-		97DE3AAD24F5074C636591CA /* Target_YZJSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3EFA4D3D0D1D6B724E0287 /* Target_YZJSwift.swift */; };
 		9FD7EA5B1E8E2B0BA186B7AB /* Pods_YZJSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FDBF73271EE462C9A0DA28 /* Pods_YZJSwift.framework */; };
 		A5972C3408D2548C44C47525 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547AE6C87262477857966A0F /* DemoViewController.swift */; };
 /* End PBXBuildFile section */
@@ -25,10 +22,9 @@
 /* Begin PBXFileReference section */
 		107DD31085DA40BA5146E0B1 /* YZJSwift_Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YZJSwift_Extension.swift; path = Extension/YZJSwift_Extension.swift; sourceTree = "<group>"; };
 		21FDBF73271EE462C9A0DA28 /* Pods_YZJSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YZJSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		321AA1A65C4F7027D3352C08 /* DemoViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DemoViewController.swift; path = Source/DemoViewController.swift; sourceTree = "<group>"; };
 		3635786C2EC7644FB20EFE59 /* Target_YZJSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Target_YZJSwift.swift; path = Source/Target/Target_YZJSwift.swift; sourceTree = "<group>"; };
 		547AE6C87262477857966A0F /* DemoViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DemoViewController.swift; path = Source/DemoViewController.swift; sourceTree = "<group>"; };
-		60B1003655E102703159E2A7 /* YZJSwift_Extension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text.script.ruby; name = YZJSwift_Extension.podspec; path = ../YZJSwift_Extension.podspec; sourceTree = "<group>"; };
+		60B1003655E102703159E2A7 /* YZJSwift_Extension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = YZJSwift_Extension.podspec; path = ../YZJSwift_Extension.podspec; sourceTree = "<group>"; };
 		67D1F1172682E68000FCC9D6 /* YZJSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZJSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D1F11A2682E68000FCC9D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67D1F11C2682E68000FCC9D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,12 +34,10 @@
 		67D1F1262682E68800FCC9D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67D1F1282682E68800FCC9D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		839A994BB68CF3E8A67A1B53 /* Pods-YZJSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZJSwift.debug.xcconfig"; path = "Target Support Files/Pods-YZJSwift/Pods-YZJSwift.debug.xcconfig"; sourceTree = "<group>"; };
-		9022CA26A74E772CB79FA394 /* YZJSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text.script.ruby; name = YZJSwift.podspec; path = ../YZJSwift.podspec; sourceTree = "<group>"; };
+		9022CA26A74E772CB79FA394 /* YZJSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = YZJSwift.podspec; path = ../YZJSwift.podspec; sourceTree = "<group>"; };
 		C6BB2D0E004139ABF60E5401 /* Pods-YZJSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZJSwift.release.xcconfig"; path = "Target Support Files/Pods-YZJSwift/Pods-YZJSwift.release.xcconfig"; sourceTree = "<group>"; };
-		EB3EFA4D3D0D1D6B724E0287 /* Target_YZJSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Target_YZJSwift.swift; path = Source/Target/Target_YZJSwift.swift; sourceTree = "<group>"; };
-		F4C4ED9831217D8C48A60937 /* YZJSwift_Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YZJSwift_Extension.swift; path = Extension/YZJSwift_Extension.swift; sourceTree = "<group>"; };
-		F8BAC804E6326F8AA8B92CBA /* YZJSwift_Extension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text.script.ruby; name = YZJSwift_Extension.podspec; path = ../YZJSwift_Extension.podspec; sourceTree = "<group>"; };
-		FBB84C3B9D9EE926E69A044F /* YZJSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text.script.ruby; name = YZJSwift.podspec; path = ../YZJSwift.podspec; sourceTree = "<group>"; };
+		F8BAC804E6326F8AA8B92CBA /* YZJSwift_Extension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = YZJSwift_Extension.podspec; path = ../YZJSwift_Extension.podspec; sourceTree = "<group>"; };
+		FBB84C3B9D9EE926E69A044F /* YZJSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = YZJSwift.podspec; path = ../YZJSwift.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,15 +112,7 @@
 				839A994BB68CF3E8A67A1B53 /* Pods-YZJSwift.debug.xcconfig */,
 				C6BB2D0E004139ABF60E5401 /* Pods-YZJSwift.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		73B2E68379B86DA3BFDF30D6 /* Target */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Target;
 			sourceTree = "<group>";
 		};
 		880932747B0C936D7DF73BDA /* Frameworks */ = {
@@ -142,8 +128,6 @@
 			children = (
 				DAF22229A696072FAF605D09 /* Target */,
 				547AE6C87262477857966A0F /* DemoViewController.swift */,
-				73B2E68379B86DA3BFDF30D6 /* Target */,
-				321AA1A65C4F7027D3352C08 /* DemoViewController.swift */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -152,7 +136,6 @@
 			isa = PBXGroup;
 			children = (
 				3635786C2EC7644FB20EFE59 /* Target_YZJSwift.swift */,
-				EB3EFA4D3D0D1D6B724E0287 /* Target_YZJSwift.swift */,
 			);
 			name = Target;
 			sourceTree = "<group>";
@@ -161,7 +144,6 @@
 			isa = PBXGroup;
 			children = (
 				107DD31085DA40BA5146E0B1 /* YZJSwift_Extension.swift */,
-				F4C4ED9831217D8C48A60937 /* YZJSwift_Extension.swift */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -286,9 +268,6 @@
 				2DC5A6002EF74D968C21BF73 /* Target_YZJSwift.swift in Sources */,
 				A5972C3408D2548C44C47525 /* DemoViewController.swift in Sources */,
 				706D97E5A05EA56360796FDF /* YZJSwift_Extension.swift in Sources */,
-				97DE3AAD24F5074C636591CA /* Target_YZJSwift.swift in Sources */,
-				72457619DF0B02900503B856 /* DemoViewController.swift in Sources */,
-				4BD70C080F1DDD7191546B81 /* YZJSwift_Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
